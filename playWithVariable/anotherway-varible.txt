@@ -1,0 +1,3 @@
+terraform apply  -var "filename=/tmp/expression.txt" -var "content=hello this using command line arguments"
+
+terraform apply -f var-file="myvarfile.tf"
